@@ -1,0 +1,51 @@
+.chat-compo{
+    height: auto;
+    width: 50%;
+    background: rgba(54, 53, 53, 0.137);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.upper{
+    background: brown;
+    /* display: flex; */
+    color: white;   
+}
+.upper div{
+    float: right;
+}
+.upper img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.chat-compo p{
+    background: #000;
+    height: auto;
+    color: wheat;
+    padding: 2px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: small;
+}
+.lower{
+    /* background: greenyellow; */
+    height: 20px;
+    color: black;   
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.lower div{
+    /* background: rebeccapurple; */
+    height: auto;
+    width: 10%;
+
+    position: absolute;
+    right: 2%;
+    /* border : 1px solid red; */
+}
+.lower .part-1{
+    display: flex;
+}

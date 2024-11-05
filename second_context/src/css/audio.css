@@ -1,0 +1,51 @@
+.window-tracker{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid red;
+  }
+  button{
+    margin: 2px;
+    background: #a9a9a9;
+    border-radius: 5px;
+    padding: 3px;
+    color: #000;
+  }
+  .music{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid #000;
+    padding-left: 100px;
+  }
+  .music>div>button{
+    background: gainsboro;
+    padding: 0.5px 10px 0.5px  10px;
+    font-size: 20px;
+    
+  }
+  .controls{
+    width: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-self: center; */
+    justify-content: space-evenly;
+  }
+  .audio-range{
+    width: 200px;
+  }
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee span {
+    display: inline-block;
+    /* padding-left: 10%; */
+    animation: marquee 5s linear infinite;
+}
+
+/* @keyframes marquee {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+} */
